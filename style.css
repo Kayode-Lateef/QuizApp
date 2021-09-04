@@ -98,7 +98,7 @@ img{
 
 .btn:hover {
     cursor: pointer;
-    background-color: #db640e;
+    /* background-color: #db640e; */
     color: white;
 }
 

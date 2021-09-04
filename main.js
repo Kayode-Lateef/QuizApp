@@ -129,7 +129,7 @@ function startCountDown() {
     let quizTimer = setInterval(function(){
         if(quizTime <= 0){
             clearInterval(quizTimer);
-            showScores
+            showScores();
         } else {
             quizTime--;
             let sec = Math.floor(quizTime % 60);
