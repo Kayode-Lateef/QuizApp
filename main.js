@@ -106,7 +106,7 @@ let questions = [
     new Question("Which is a Javascript Framework?", ["React","Laravel", "Django", "Sass"], "React"),
     new Question("Which is a Backend Language?", ["PHP","HTML", "React", "All"], "PHP"),
     new Question("Which is the best for Artificial intelligence", ["React","Laravel", "Python", "Sass"], "Python"),
-    new Question("Which of the following will write the message “Hello KaytechiT!” in an alert box?", ["alertBox(“Hello KaytechiT!”);","alert(Hello KaytechiT!);", "msgAlert(“Hello KaytechiT!”);", "msgAlert(“Hello KaytechiT!”);"], "msgAlert(“Hello KaytechiT!”);"),
+    new Question("Which of the following will write the message “Hello KaytechiT!” in an alert box?", ["alertBox(“Hello KaytechiT!”);","alert(“Hello KaytechiT!”);", "msgAlert(“Hello KaytechiT!”);", "msgAlert(“Hello KaytechiT!”);"], "alert(“Hello KaytechiT!”);"),
     new Question("If we want to show an Arrow as cursor, then which value we will use?", ["pointer","default", "arrow", "arr"], "pointer"),
     new Question("How can we write comment along with CSS code?", ["/* a comment */","// a comment //", "/ a comment /", "<' a comment'>"], "/* a comment */")
     
